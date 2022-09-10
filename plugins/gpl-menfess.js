@@ -37,7 +37,7 @@ conn.sendMessage(m.chat, tm, m)
     conn.reply(m.chat, logs, m)
 }}
 handler.help = ['menfes']
-handler.tags = ['anonymous']
+handler.tags = ['fun']
 handler.command = /^(menfes|menfess)$/i
 handler.private = true
 
