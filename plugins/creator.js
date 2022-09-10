@@ -20,7 +20,7 @@ let handler = async(m, { conn }) => {
     }
     }
 	conn.p[id] = [
-	await conn.sendKontak(m.chat, kontak2, ftroli, { contexInfo: { forwardingScore: 99999, isForwarded: true } })
+	await conn.sendKontak(m.chat, kontak, ftroli, { contexInfo: { forwardingScore: 99999, isForwarded: true } })
 	]
 	await delay(100)
   return conn.sendButton(m.chat, `Hay kak @${await m.sender.split('@')[0]}, itu nomor ownerku jangan dispam yah ^_^`, 'Itu Owner Ku Yah Kak Jangan Sungkem Untuk Chat ;3','Credits', '.tqto', m, { quoted: conn.p[id][0] })
