@@ -47,7 +47,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) =>�
  │◦〉  ${_p}? textpro  
  │◦〉  ${_p}? photooxy 
  ╰━–━–━–━–━–⊙–━–━–━–━┈▧` 
-      await conn.send2ButtonLoc(m.chat, await (await fetch('https://telegra.ph/file/0c308dfdb4f3217546663.jpg')).buffer(), caption, `ıll Runtime : ${uptime}\nlıl Tanggal : ${week} ${date}`, 'Donasi', `.donasi`, 'Owner', '.owner', m) 
+      await conn.send2ButtonLoc(m.chat, await (await fetch('https://telegra.ph/file/cf6bc4ba307895269af36.jpg')).buffer(), caption, `ıll Runtime : ${uptime}\nlıl Tanggal : ${week} ${date}`, 'Donasi', `.donasi`, 'Owner', '.owner', m) 
   }  
   handler.help = ['menu2'] 
   handler.tags = ['main']  
