@@ -10,7 +10,7 @@ const ftroli = {
                             surface : 1,
                             message: `Okey Kak ${conn.getName(m.sender)}`, //Kasih namalu
                             orderTitle: 'Bang',
-                            thumbnail: await (await fetch('https://telegra.ph/file/c4a4bea15c41d62072b60.jpg')).buffer(), //Gambarnye
+                            thumbnail: await (await fetch('https://telegra.ph/file/a333980962233d5e64cf5.jpg')).buffer(), //Gambarnye
                             sellerJid: '0@s.whatsapp.net'
                           }
                         }
