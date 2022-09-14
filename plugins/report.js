@@ -13,7 +13,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 		"extendedTextMessage": {
                  "text": `${usedPrefix}${command} ${text}`,
                  "title": '',
-                 'jpegThumbnail': await (await fetch('https://telegra.ph/file/d9c17295943787a7c7354.jpg')).buffer()
+                 'jpegThumbnail': await (await fetch('https://telegra.ph/file/a333980962233d5e64cf5.jpg')).buffer()
                         }
 	                  } 
                      }
@@ -26,7 +26,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     		key: m.key
     	}
     })	
-    conn.send2ButtonLoc(m.chat, 'https://telegra.ph/file/3324243c9673f484c5930.jpg',`Masalah telah di laporkan ke @${global.owner[0].split('@')[0]}, jika ${command.toLowerCase()} hanya main-main tidak akan ditanggapi.`, wm, 'Owner', '.owner', 'Menu', '.menu', m)
+    conn.send2ButtonLoc(m.chat, 'https://telegra.ph/file/cf6bc4ba307895269af36.jpg',`Masalah telah di laporkan ke @${global.owner[0].split('@')[0]}, jika ${command.toLowerCase()} hanya main-main tidak akan ditanggapi.`, wm, 'Owner', '.owner', 'Menu', '.menu', m)
 }
 handler.help = ['report', 'request'].map(v => v + '<text>')
 handler.tags = ['info']
